@@ -5,19 +5,19 @@ services:
 
 # set LOGSTASH_HOST to dns/ip of logstash host
 
-  proxy:
-    logging:
-      driver: "syslog"
-      options:
-        syslog-address: "udp://${LOGSTASH_HOST}:25826"
-        tag: "proxy"
+#  proxy:
+#    logging:
+#      driver: "syslog"
+#      options:
+#        syslog-address: "udp://${LOGSTASH_HOST}:25826"
+#        tag: "proxy"
 
-  ldap:
-    logging:
-      driver: "syslog"
-      options:
-        syslog-address: "udp://${LOGSTASH_HOST}:25826"
-        tag: "ldap"
+#  ldap:
+#    logging:
+#      driver: "syslog"
+#      options:
+#       syslog-address: "udp://${LOGSTASH_HOST}:25826"
+#        tag: "ldap"
 
   gitlab:
     logging:
