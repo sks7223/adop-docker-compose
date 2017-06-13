@@ -49,8 +49,8 @@ services:
     container_name: ldap
     restart: always
     #build: ../images/docker-ldap/
-    image: accenture/adop-ldap:0.2.0
-    #image: avsdeveng/ldap:0.3.0
+    #image: accenture/adop-ldap:0.2.0
+    image: avsdeveng/ldap:0.3.0
     networks:
       - adopnetwork
     ports:
