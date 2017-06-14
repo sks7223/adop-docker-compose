@@ -16,14 +16,14 @@ services:
  #     - /data/ldap2_osixia:/osixia
  #     - /data/ldap2_export:/backup
 
-  ldap:
-    volumes:
-      - /data/ldap_db:/var/lib/ldap
-      - /data/ldap_static:/etc/ldap
-      - /data/ldap_slapd:/var/lib/slapd
-      - /data/ldap_certs:/etc/ssl/certs
-      - /data/ldap_osixia:/osixia
-      - /data/ldap_export:/backup
+ # ldap:
+ #   volumes:
+ #     - /data/ldap_db:/var/lib/ldap
+ #     - /data/ldap_static:/etc/ldap
+ #     - /data/ldap_slapd:/var/lib/slapd
+ #     - /data/ldap_certs:/etc/ssl/certs
+ #     - /data/ldap_osixia:/osixia
+ #     - /data/ldap_export:/backup
 
   gitlab:
     volumes:
