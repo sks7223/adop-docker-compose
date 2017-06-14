@@ -22,15 +22,15 @@ services:
       - "80:80"
       - "81:81"
     depends_on:
-      - gitlab
-      - jenkins
-      - sonar
-      - nexus
+ #     - gitlab
+ #     - jenkins
+ #     - sonar
+ #     - nexus
       - ldap
-      - sensu-uchiwa
-      - ldap-ltb
-      - ldap-phpadmin
-      - selenium-hub
+ #     - sensu-uchiwa
+ #     - ldap-ltb
+ #     - ldap-phpadmin
+ #     - selenium-hub
     environment:
       - "constraint:tier==public"
       - "LDAP_SERVER=${LDAP_SERVER}"
