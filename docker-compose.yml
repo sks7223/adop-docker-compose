@@ -523,7 +523,7 @@ services:
       - "constraint:tier==private"
       - "NEXUS_BASE_URL=${PROTO}://${TARGET_HOST}/nexus"
       - "LDAP_SEARCH_BASE=${LDAP_FULL_DOMAIN}"
-      - "LDAP_ENABLED=true"
+      - "LDAP_ENABLED=false"
       - "LDAP_URL=ldap"
       - "LDAP_BIND_DN=${LDAP_ADMIN},${LDAP_FULL_DOMAIN}"
       - "LDAP_USER_PASSWORD_ATTRIBUTE=userPassword"
