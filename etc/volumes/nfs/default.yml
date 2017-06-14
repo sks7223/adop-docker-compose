@@ -7,14 +7,14 @@ services:
       - /data/nginx_config:/etc/nginx
       - /data/nginx_releasenote:/usr/share/nginx/html
 
-  ldap2:
-    volumes:
-      - /data/ldap2_db:/var/lib/ldap
-      - /data/ldap2_static:/etc/ldap
-      - /data/ldap2_slapd:/var/lib/slapd
-      - /data/ldap2_certs:/etc/ssl/certs
-      - /data/ldap2_osixia:/osixia
-      - /data/ldap2_export:/backup
+ # ldap2:
+ #   volumes:
+ #     - /data/ldap2_db:/var/lib/ldap
+ #     - /data/ldap2_static:/etc/ldap
+ #     - /data/ldap2_slapd:/var/lib/slapd
+ #     - /data/ldap2_certs:/etc/ssl/certs
+ #     - /data/ldap2_osixia:/osixia
+ #     - /data/ldap2_export:/backup
 
   ldap:
     volumes:
