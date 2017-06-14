@@ -91,7 +91,7 @@ services:
 
   nexus:
     volumes:
-      - /data/nexus_sonatype_work:/sonatype-work
+      - /nexus:/sonatype-work
 
   openvpn:
     volumes:
