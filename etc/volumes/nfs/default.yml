@@ -7,7 +7,7 @@ services:
       - /data/nginx_config:/etc/nginx
       - /data/nginx_releasenote:/usr/share/nginx/html
 
-  ldap:
+  ldap2:
     volumes:
       - /data/ldap2_db:/var/lib/ldap
       - /data/ldap2_static:/etc/ldap
